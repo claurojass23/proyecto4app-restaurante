@@ -1,0 +1,18 @@
+.navegador{
+    background-color: rgba(233, 72, 51, 0.808);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    font-size: 15px;
+}
+
+.conteiner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Navmenu{
+    display: flex;
+    justify-content: space-between;
+}
