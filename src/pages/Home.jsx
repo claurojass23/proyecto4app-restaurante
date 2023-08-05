@@ -1,7 +1,12 @@
 import React from 'react'
+import './home.css'
+import img from '../imagenes/arepas.jpg'
+
 
 export default function Home() {
   return (
-    <div>Home</div>
+    <>
+    <img className='HomeImg' src={img}></img>
+    </>
   )
 }

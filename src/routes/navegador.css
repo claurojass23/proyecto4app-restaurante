@@ -1,18 +1,46 @@
 .navegador{
-    background-color: rgba(233, 72, 51, 0.808);
+    background-color: rgb(112, 4, 4);
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80px;
+    height: 85px;
     font-size: 15px;
+    position: sticky;
 }
 
 .conteiner{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    height: 80px;
+    width: 100%;
+    padding: 0 24px;
 }
 
 .Navmenu{
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+.NavLink{
+    text-decoration: none;
+    margin-right: 20px;
+    color: aliceblue;
+}
+
+.img{
+    height: 70px;
+    margin-right: 10px;
+}
+.logopages{
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.subContenedor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
 }
