@@ -8,19 +8,20 @@ function Reservaciones() {
     <h1>reserva</h1>
     <div className='contenedor'>
       <Form>
-        <h1>Datos de la reserva</h1>
-        <FormLabel>Nombre:</FormLabel>
-        <input type='text' required name='nombre'></input>
-        <FormLabel>Apellido:</FormLabel>
-        <input type='text' required name='apellido'></input>
-        <FormLabel>Email:</FormLabel>
-        <input type='text' required name='email'></input>
-        <FormLabel>Telefono:</FormLabel>
-        <input type='text' required name='telefono'></input>
-        <FormLabel>Fecha:</FormLabel>
+        <Form.Group>
+        <Form.Label>Nombre Completo</Form.Label>
+        <Form.Control type='string' placeholder='Escribe tu nombre y apellido'/>
+        <Form.Label>Telefono</Form.Label>
+        <Form.Control type='phone' placeholder='Escribe tu telefono'/>
+        <Form.Label>Fecha:</Form.Label>
         <input type='date' required name='nombre'></input>
-        <FormLabel>Hora:</FormLabel>
+        <Form.Label>Hora:</Form.Label>
         <input type='time' required name='nombre'></input>
+        <Form.Label>Email:</Form.Label>
+        <input type='text' required name='email'></input>
+      
+        </Form.Group>
+        
       
       </Form>
 
