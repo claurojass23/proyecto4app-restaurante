@@ -1,6 +1,7 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import db from '../../config/dbFirebase'
 import './reservaciones.css'
+import { addDoc, collection, onSnapshot } from "firebase/firestore"; 
 import { FormLabel, Form} from 'react-bootstrap'
 
 function Reservaciones() {
@@ -22,8 +23,9 @@ function Reservaciones() {
  const onSave =(event) =>{
    event.preventDefault ();
    console.log(formData)
-
- }
+   addDoc(collection(db,'reservaciones'),formData)
+   alert('se guardo con exito')
+ } 
 
  const onChange = (e) =>{
     setFormData({
@@ -33,6 +35,19 @@ function Reservaciones() {
     console.log(formData)
  }
 
+ const getReservas = async()=>{
+  onSnapshot(collection(db,'reservaciones'), (snapshot)=>{
+    const litas =[];
+    snapshot.forEach(doc => litas.push({...doc.data(), id: doc.id}))
+    setReservas(litas)
+  })
+   
+ }
+
+ useEffect(()=>{
+ getReservas()
+ },[])
+
   return (
     <>
     
@@ -41,27 +56,54 @@ function Reservaciones() {
       <Form  onSubmit={onSave} className='form-reserva'>
         <Form.Group className='mb-3' controlId='formBasicEmail'>
         <Form.Label>Nombre Completo</Form.Label>
-        <Form.Control type='string' value={formData.nombre}  onChange={onChange} placeholder='Escribe tu nombre y apellido' name='Nombre'/>
+        <Form.Control type='string' value={formData.nombre}  onChange={onChange} placeholder='Escribe tu nombre y apellido' name='nombre'/>
         <Form.Label>Telefono</Form.Label>
-        <Form.Control type='phone' value={formData.telefono} onChange={onChange} placeholder='Escribe tu telefono' name='Telefono'/>
+        <Form.Control type='phone' value={formData.telefono} onChange={onChange} placeholder='Escribe tu telefono' name='telefono'/>
         <Form.Label>Fecha de Reservacion</Form.Label>
-        <Form.Control type='date' value={formData.fecha} onChange={onChange} name='Fecha'/>
+        <Form.Control type='date' value={formData.fecha} onChange={onChange} name='fecha'/>
         <Form.Label>Hora de la reservacion</Form.Label>
-        <Form.Control type='time' value={formData.hora} onChange={onChange} name='Hora'/>
+        <Form.Control type='time' value={formData.hora} onChange={onChange} name='hora'/>
         <Form.Label>Comensales</Form.Label>
-        <Form.Control type='string'  value={formData.comensales} onChange={onChange} placeholder='Escribe el numero de personas' name='Conmensales'/>
+        <Form.Control type='string'  value={formData.comensales} onChange={onChange} placeholder='Escribe el numero de personas' name='comensales'/>
         <Form.Label>Correo Electrónico</Form.Label>
-        <Form.Control type='email'  value={formData.email} onChange={onChange} placeholder='Escribe tu Email' name='Email'/>
+        <Form.Control type='email'  value={formData.email} onChange={onChange} placeholder='Escribe tu Email' name='email'/>
 
         <Form.Text className='text-muted'>
          Tu informacion es privada y no sera compartida o reutilizada
         </Form.Text>
         
         </Form.Group>
-        <button type="button" class="btn btn-light">Guardar</button>
+        <button type="submit" class="btn btn-light">Guardar</button>
       
       </Form>
 
+    </div>
+
+    <div>
+      <table>
+        <thead>
+          <tr>Nombre</tr>
+          <tr>Fecha</tr>
+          <tr>Hora</tr>
+          <tr>Comensales</tr>
+        </thead>
+        <tbody>
+          {
+            reservas.map(reservas=>{
+              return(
+                <tr>
+                 <td>{reservas.nombre}</td>
+                 <td>{reservas.fecha}</td>
+                 <td>{reservas.hora}</td>
+                 <td>{reservas.comensales}</td>
+                </tr>
+              )
+                
+              
+            })
+          }
+        </tbody>
+      </table>
     </div>
     </>
   )
