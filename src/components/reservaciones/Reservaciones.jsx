@@ -78,23 +78,23 @@ function Reservaciones() {
       </Form>
 
     </div>
-    <div>
+    <div className='tabladatos'>
       <table>
         <thead>
-          <th>Nombre</th>
-          <th>Fecha</th>
-          <th>Hora</th>
-          <th>Comensales</th>
+          <th className='th'>Nombre</th>
+          <th className='th'>Fecha</th>
+          <th className='th'>Hora</th>
+          <th className='th'>Comensales</th>
         </thead>
         <tbody>
           {
             reservas.map(reservas=>{
               return(
                 <tr>
-                 <td>{reservas.nombre}</td>
-                 <td>{reservas.fecha}</td>
-                 <td>{reservas.hora}</td>
-                 <td>{reservas.comensales}</td>
+                 <td className='td'>{reservas.nombre}</td>
+                 <td className='td'>{reservas.fecha}</td>
+                 <td className='td'>{reservas.hora}</td>
+                 <td className='td' >{reservas.comensales}</td>
                 </tr>
               )
                 
