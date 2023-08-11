@@ -78,7 +78,6 @@ function Reservaciones() {
       </Form>
 
     </div>
-
     <div>
       <table>
         <thead>

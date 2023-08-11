@@ -1,0 +1,28 @@
+.h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+}
+
+.diaNosotros{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.imgN{
+    width: 400px;
+    height: 400px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+.parrafos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 50px;
+    font-size: 20px;
+}
