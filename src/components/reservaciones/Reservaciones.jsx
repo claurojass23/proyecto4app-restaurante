@@ -81,10 +81,10 @@ function Reservaciones() {
     <div>
       <table>
         <thead>
-          <tr>Nombre</tr>
-          <tr>Fecha</tr>
-          <tr>Hora</tr>
-          <tr>Comensales</tr>
+          <th>Nombre</th>
+          <th>Fecha</th>
+          <th>Hora</th>
+          <th>Comensales</th>
         </thead>
         <tbody>
           {
