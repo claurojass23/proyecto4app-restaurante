@@ -9,7 +9,7 @@ import pepitos from '../../imagenes/pepitos.jpg'
 import hotdog  from '../../imagenes/perritoscalientes.jpg'
 import hamburguesas from '../../imagenes/hamburguesa-.jpg'
 
-export const menuCarta =[
+export const productos =[
     {
         img: pastelitos,
         alt:'pastelitos',
