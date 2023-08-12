@@ -3,7 +3,6 @@ import SobreNosotros from '../components/sobrenosotros/SobreNosotros';
 import Menu from '../components/menu/Menu';
 
 
-import SignUp from '../components/signup/SignUp';
 import SignIn from '../components/signin/SignIn';
 import Home from '../pages/Home';
 import './App.css';
@@ -19,8 +18,7 @@ function App() {
         <Route path='/Nosotros' element={<SobreNosotros/>}/>
         <Route path='/Menu' element={<Menu/>}/>
         <Route path='/Reservasiones' element={<Reservaciones/>}/>
-        <Route path='/Sinup' element={<SignUp/>}/>
-        <Route path='/Signin' element={<SignIn/>}/>
+       <Route path='/Signin' element={<SignIn/>}/>
 
 
       </Routes>

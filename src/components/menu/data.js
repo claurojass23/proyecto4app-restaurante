@@ -6,8 +6,6 @@ import cachapas from '../../imagenes/cachapa.jpg'
 import hallacas from '../../imagenes/hallacas.jpg'
 import patacones from '../../imagenes/patacones.jpg'
 import pepitos from '../../imagenes/pepitos.jpg'
-import hotdog  from '../../imagenes/perritoscalientes.jpg'
-import hamburguesas from '../../imagenes/hamburguesa-.jpg'
 
 export const productos =[
     {
@@ -62,7 +60,7 @@ export const productos =[
         img: patacones,
         alt:'patacones',
         nombre: 'Patacones',
-        descripcion:'patacones con maiz,papitas,tomate,cebolla,tocineta. Patacones con carne mechada, pollo o mixta',
+        descripcion:'patacon tradicional,mixto',
         precio:'$20.000'
 
     },
@@ -74,22 +72,7 @@ export const productos =[
         precio:'$18.000'
 
     },
-    {
-        img: hotdog,
-        alt:'hotdog',
-        nombre: 'Perro Caliente',
-        descripcion:'perros calientes tradicionales, con salchica americana, con poll, con carne mechada,mixto',
-        precio:'$17.000'
-
-    },
-    {
-        img: hamburguesas,
-        alt:'hamburguesas',
-        nombre: 'Hamburguesas',
-        descripcion:'Hamburguesas tradicional, hamburguesa doble carne, hamburguesa tres carne',
-        precio:'$15.000'
-
-    },
+    
     
 
 ]
