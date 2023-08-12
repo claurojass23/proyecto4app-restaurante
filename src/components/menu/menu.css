@@ -5,9 +5,9 @@
     text-align: center;
     margin-top: 3rem;
     text-transform: uppercase;
-  }
+}
   
-  .productos-contenedor {
+.productos-contenedor {
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
     grid-gap: 15px; 
@@ -27,6 +27,7 @@
     text-align: center;
     transition: box-shadow 0.3s ease;
     cursor: pointer;
+    margin-bottom: 2rem;
 }
 
 .Card:hover{

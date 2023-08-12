@@ -16,7 +16,7 @@ export default function Navegador() {
              <li className='NavItem'><NavLink className='NavLink' to="/Nosotros">Sobre nosotros</NavLink></li>
               <li className='NavItem'><NavLink  className='NavLink' to="/Menu">Menu</NavLink></li>
               <li className='NavItem'><NavLink className='NavLink' to="/Reservasiones">Reservaciones</NavLink></li>
-              <li className='NavItem'><NavLink className='NavLink' to="/Signin">Contactanos</NavLink></li>
+              <li className='NavItem'><NavLink className='NavLink' to="/SignIn">Contactanos</NavLink></li>
             
             </ul>
               

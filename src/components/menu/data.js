@@ -7,6 +7,11 @@ import hallacas from '../../imagenes/hallacas.jpg'
 import patacones from '../../imagenes/patacones.jpg'
 import pepitos from '../../imagenes/pepitos.jpg'
 
+import maracuya from '../../imagenes/maracuya.jpg'
+import lulo from '../../imagenes/lulo.jpg'
+import papelon from '../../imagenes/papelon.jpg'
+import mora from '../../imagenes/mora.jpg'
+
 export const productos =[
     {
         img: pastelitos,
@@ -74,5 +79,41 @@ export const productos =[
     },
     
     
+
+]
+
+export const jugos =[
+    {
+        img: maracuya,
+        alt:'maracuya',
+        nombre: 'Maracuya',
+        descripcion:'Jugo de maracuya en agua y en leche',
+        precio:'$4.500'
+
+    },
+    {
+        img: lulo,
+        alt:'lulo',
+        nombre: 'Lulo',
+        descripcion:'Jugo de lulo en agua y en leche',
+        precio:'$4.500'
+
+    },
+    {
+        img: papelon,
+        alt:'papelon',
+        nombre: 'Papelon ',
+        descripcion:'Panela con limon ',
+        precio:'$4.000'
+
+    },
+    {
+        img:mora,
+        alt:'mora',
+        nombre: 'mora',
+        descripcion:'Jugo de mora en agua y en leche',
+        precio:'$4.500'
+
+    },
 
 ]

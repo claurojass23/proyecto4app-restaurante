@@ -1,6 +1,6 @@
 import React from 'react'
 import '../menu/menu.css'
-import {productos} from '../menu/data.js'
+import {productos,jugos} from '../menu/data.js'
 import { Card,Button} from 'react-bootstrap'
 
 
@@ -26,6 +26,30 @@ export default function Menu() {
 
             )
           })
+
+
+
+          }
+
+         </div>
+          <h1>Jugos Naturales</h1>
+          <div className='productos-contenedor'>
+            {jugos.map((jugo, index)=>{
+              return(
+               <Card className='Card'>
+                 <Card.Img variant='top' className='imgCard' src={jugo.img}/>
+                 <Card.Body>
+                   <Card.Title>
+                    {jugo.descripcion}
+                   </Card.Title>
+                   <Button variant="primary">{jugo.precio}</Button>
+                 </Card.Body>
+              </Card>
+
+            )
+          })
+
+          
 
           }
 
