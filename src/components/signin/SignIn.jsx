@@ -15,31 +15,31 @@ export default function SignIn() {
     <div className='iconC'>
       <div className='redes'>
        <img className='icon' src={face}></img>
-       <h3>restaurante_naguaraVnzl</h3>
+       <h5>restaurante_naguaraVnzl</h5>
       </div>
       <div  className='redes'>
        <img className='icon' src={insta}></img>
-       <h3>restaurante_naguaraVnzl</h3>
+       <h5>restaurante_naguaraVnzl</h5>
       </div>
       <div  className='redes'>
        <img className='icon' src={twitter}></img>
-       <h3>naguaraVnzl</h3>
+       <h5>naguaraVnzl</h5>
       </div>
       <div  className='redes'>
        <img className='icon' src={lin}></img>
-       <h3>Restaurante Naguara </h3>
+       <h5>Restaurante Naguara </h5>
       </div>
       <div  className='redes'>
        <img className='icon' src={github}></img>
-       <h3>naguara_Vnzl</h3>
+       <h5>naguara_Vnzl</h5>
       </div>
       <div  className='redes'>
        <img className='icon' src={telefono}></img>
-       <h3>+57 3136004567  3042037218</h3>
+       <h5>+57 3136004567  3042037218</h5>
       </div>
       <div  className='redes'>
        <img className='icon' src={ubicacion}></img>
-       <h3>Carrera 43F #11-30, Antioquia</h3>
+       <h5>Carrera 43F #11-30, Antioquia</h5>
       </div>
 
      </div>

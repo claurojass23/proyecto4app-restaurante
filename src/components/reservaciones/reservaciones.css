@@ -1,55 +1,55 @@
 .contenedor{
-    display: flex;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    z-index: 0;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 70px;
-    padding-bottom: 50px;
+ display: flex;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ top: 0;
+ z-index: 0;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ padding-top: 70px;
+ padding-bottom: 50px;
     
 } 
 
 .form-reserva{
-    border: 2px solid black;
-    padding: 25px;
-    border-radius: 30px;
-    background-color: #a0341ff3;
-    transition: box-shadow 0.3s ease;
+ border: 2px solid black;
+ padding: 25px;
+ border-radius: 30px;
+ background-color: #a0341ff3;
+ transition: box-shadow 0.3s ease;
 }
 
 .form-reserva:hover{
-    box-shadow: 0.1rem 0.1rem 0.4rem rgba(0, 0, 0, 0.562) ;
-    color: aliceblue;
-    
+ box-shadow: 0.1rem 0.1rem 0.4rem rgba(0, 0, 0, 0.562) ;
+ color: aliceblue;
 }
 
 .tabladatos{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
 }
 
 .th{
-    padding-left: 40px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    background-color: #a0341ff3;
-    transition: box-shadow 0.3s ease;
-    cursor: pointer;
+ padding-left: 40px;
+ padding-right: 10px;
+ padding-bottom: 10px;
+ background-color: #a0341ff3;
+ transition: box-shadow 0.3s ease;
+ cursor: pointer;
+ margin-bottom:  1rem;
 }
 
 .th:hover{
-    color: aliceblue;
+ color: aliceblue;
 }
 
 .td{
-    padding-left: 40px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    cursor: pointer;
+ padding-left: 40px;
+ padding-right: 10px;
+ padding-bottom: 10px;
+ cursor: pointer;
 }

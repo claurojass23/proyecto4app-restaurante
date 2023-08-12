@@ -1,35 +1,31 @@
 
 .iconC{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin-top: 4rem;
+ margin-bottom: 4rem;
 }
 
-
-
 .icon{
-    width: 100px;
-    height: 100px;
-    margin-bottom: 1rem;
+ width: 70px;
+ height: 70px;
+ margin-bottom: 1rem;
 }
 
 .redes{
-    display: flex;
-    margin-top: 3rem;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    padding: 1rem;
-    border-radius: 5px;
-    background-color: aliceblue;
-    
+ display: flex;
+ margin-top: 3rem;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ cursor: pointer;
+ padding: 1rem;
+ border-radius: 5px;
 }
 
 .redes:hover{
-    box-shadow: 0.1rem 0.1rem 0.4rem rgba(0, 0, 0, 0.562) ;
-    transition: box-shadow 0.3s ease;
+ box-shadow: 0.1rem 0.1rem 0.4rem rgba(0, 0, 0, 0.562) ;
+ transition: box-shadow 0.3s ease;
 }
