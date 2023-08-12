@@ -20,9 +20,11 @@ export default function Menu() {
                   <Card.Title>
                     {producto.descripcion}
                   </Card.Title>
-                  <Button variant="primary">{producto.precio}</Button>
+                  <Button className='button' variant="primary">{producto.precio}</Button>
                </Card.Body>
+               
               </Card>
+              
 
             )
           })
@@ -42,7 +44,7 @@ export default function Menu() {
                    <Card.Title>
                     {jugo.descripcion}
                    </Card.Title>
-                   <Button variant="primary">{jugo.precio}</Button>
+                   <Button className='button' variant="primary">{jugo.precio}</Button>
                  </Card.Body>
               </Card>
 

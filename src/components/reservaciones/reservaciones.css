@@ -17,12 +17,14 @@
     border: 2px solid black;
     padding: 25px;
     border-radius: 30px;
-    background-color: #665652b7;
+    background-color: #a0341ff3;
+    transition: box-shadow 0.3s ease;
 }
 
 .form-reserva:hover{
-    background-color: #a0341fb2;
+    box-shadow: 0.1rem 0.1rem 0.4rem rgba(0, 0, 0, 0.562) ;
     color: aliceblue;
+    
 }
 
 .tabladatos{
@@ -36,11 +38,18 @@
     padding-left: 40px;
     padding-right: 10px;
     padding-bottom: 10px;
-    background-color:  #a0341fb2;
+    background-color: #a0341ff3;
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.th:hover{
+    color: aliceblue;
 }
 
 .td{
     padding-left: 40px;
     padding-right: 10px;
     padding-bottom: 10px;
+    cursor: pointer;
 }
