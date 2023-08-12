@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/proyecto4app-restaurante/static/css/main.ecae3656.css",
+    "main.js": "/proyecto4app-restaurante/static/js/main.8bd8ea8d.js",
+    "static/media/bonos.jpg": "/proyecto4app-restaurante/static/media/bonos.bc717ead13b35b18724f.jpg",
+    "static/media/cachapa.jpg": "/proyecto4app-restaurante/static/media/cachapa.db2c9cfe0831adfc170e.jpg",
+    "static/media/mora.jpg": "/proyecto4app-restaurante/static/media/mora.a3eb9bea0df9da41271d.jpg",
+    "static/media/papelon.jpg": "/proyecto4app-restaurante/static/media/papelon.bd85064246c75f2e85b7.jpg",
+    "static/media/arepashome.jpg": "/proyecto4app-restaurante/static/media/arepashome.b1c5d3cf5dd5ad33a42d.jpg",
+    "static/media/arepas-rellenas.jpg": "/proyecto4app-restaurante/static/media/arepas-rellenas.f7265ffb6a394cd4d2af.jpg",
+    "static/media/maracuya.jpg": "/proyecto4app-restaurante/static/media/maracuya.f6a378d471e0e858f4b9.jpg",
+    "static/media/tequeno.jpg": "/proyecto4app-restaurante/static/media/tequeno.1ca966d93c67ba91ac5e.jpg",
+    "static/media/chef.jpg": "/proyecto4app-restaurante/static/media/chef.ee1165490e10d2175df3.jpg",
+    "static/media/hallacas.jpg": "/proyecto4app-restaurante/static/media/hallacas.9154c5cebfd9539871c1.jpg",
+    "static/media/pastelitos-andinos.jpg": "/proyecto4app-restaurante/static/media/pastelitos-andinos.d821a3e60b484ab86702.jpg",
+    "static/media/pepitos.jpg": "/proyecto4app-restaurante/static/media/pepitos.81f192453f449fb91706.jpg",
+    "static/media/patacones.jpg": "/proyecto4app-restaurante/static/media/patacones.26dfb3defdbc1ac0bb01.jpg",
+    "static/media/mapas-y-banderas.png": "/proyecto4app-restaurante/static/media/mapas-y-banderas.cd713242609514e8ed14.png",
+    "index.html": "/proyecto4app-restaurante/index.html",
+    "main.ecae3656.css.map": "/proyecto4app-restaurante/static/css/main.ecae3656.css.map",
+    "main.8bd8ea8d.js.map": "/proyecto4app-restaurante/static/js/main.8bd8ea8d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ecae3656.css",
+    "static/js/main.8bd8ea8d.js"
+  ]
+}
